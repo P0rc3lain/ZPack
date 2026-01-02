@@ -4,16 +4,16 @@
 import PackageDescription
 
 let package = Package(
-    name: "ConvenientMetal",
+    name: "ZPack",
     products: [
         .library(
-            name: "ConvenientMetal",
-            targets: ["ConvenientMetal"]
+            name: "ZPack",
+            targets: ["ZPack"]
         ),
     ],
     targets: [
         .target(
-            name: "ConvenientMetal"
+            name: "ZPack"
         ),
 
     ]
