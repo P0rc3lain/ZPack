@@ -16,8 +16,12 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "ZPack"
+            name: "ZPack",
+            swiftSettings: [
+                .unsafeFlags(["-enable-library-evolution"])
+            ]
         ),
 
     ]
 )
+
