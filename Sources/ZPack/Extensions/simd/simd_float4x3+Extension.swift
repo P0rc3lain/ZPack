@@ -7,6 +7,6 @@ public extension simd_float4x3 {
                                     columns.1.packed,
                                     columns.2.packed,
                                     columns.3.packed))
-        
+
     }
 }

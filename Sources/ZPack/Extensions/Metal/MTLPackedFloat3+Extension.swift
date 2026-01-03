@@ -1,5 +1,5 @@
-import simd
 import Metal
+import simd
 
 public extension MTLPackedFloat3 {
     var unpacked: simd_float3 {

@@ -12,7 +12,7 @@ let package = Package(
         .library(
             name: "ZPack",
             targets: ["ZPack"]
-        ),
+        )
     ],
     targets: [
         .target(
@@ -20,8 +20,7 @@ let package = Package(
             swiftSettings: [
                 .unsafeFlags(["-enable-library-evolution"])
             ]
-        ),
+        )
 
     ]
 )
-
