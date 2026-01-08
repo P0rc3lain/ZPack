@@ -1,3 +1,7 @@
+//
+//  Copyright © 2026 Mateusz Stompór. All rights reserved.
+//
+
 import Metal
 import simd
 
