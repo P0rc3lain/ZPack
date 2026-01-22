@@ -19,11 +19,11 @@ extension MTLDevice {
         let length = MemoryLayout<T>.stride * array.count
         return makeBuffer(bytes: array, length: length, options: options)
     }
-    
+
     public func makeBuffer<T>(element: T, options: MTLResourceOptions = []) -> MTLBuffer? {
-        return makeBuffer(array: [element])
+        makeBuffer(array: [element])
     }
-    
+
     public func makeTextureSolid2D(color: simd_float4) -> MTLTexture? {
         guard let texture = makeTexture(descriptor: .rgba32FloatTile) else {
             assertionFailure("Texture creation has failed")

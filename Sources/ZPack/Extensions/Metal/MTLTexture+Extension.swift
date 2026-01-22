@@ -2,7 +2,6 @@
 //  Copyright © 2026 Mateusz Stompór. All rights reserved.
 //
 
-
 import Metal
 
 extension MTLTexture {
